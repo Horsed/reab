@@ -14,7 +14,7 @@ module.exports = function(grunt) {
         },
       },
       coffee: {
-        files: ['**/*.litcoffee'],
+        files: ['**/*.md'],
         tasks: ['coffee'],
         options: {
           spawn: false,
@@ -25,8 +25,8 @@ module.exports = function(grunt) {
     coffee: {
       compile: {
         files: {
-          'reab.js': 'reab.litcoffee',
-          'test/tests.js': 'test/tests.litcoffee',
+          'reab.js': 'README.md',
+          'test/tests.js': 'test/tests.md',
         }
       },
     },

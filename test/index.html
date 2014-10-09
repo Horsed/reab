@@ -5,12 +5,17 @@
   <link rel="stylesheet" href="lib/qunit-1.15.0.css">
 
   <script type="text/javascript" src="lib/jquery.min.js"></script>
+  <script type="text/javascript" src="lib/lodash.min.js"></script>
   <script type="text/javascript" src="lib/rx.all.min.js"></script>
   <script type="text/javascript" src="lib/rx.jquery.min.js"></script>
   <script type="text/javascript" src="../reab.js"></script>
 </head>
-<body>
-  <div class="bla"></div>
+<body rb-scope="rb-test">
+  <div rb-text="rbTextFixture"></div>
+  <div rb-show="rbShowFixture" style="displayed:none"></div>
+  <div rb-hide="rbHideFixture"></div>
+  <input type="text" rb-enable="rbEnableFixture" disabled="disabled" />
+  <input type="text" rb-disable="rbDisableFixture" />
 
   <div id="qunit"></div>
   <div id="qunit-fixture"></div>

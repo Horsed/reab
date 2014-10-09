@@ -28,17 +28,17 @@
       ltAttr('rb-text', function(value) {
         return $(this).text(value);
       });
-      ltAttr('rb-enabled', function(value) {
-        return $(this).prop('disabled', false);
-      });
-      ltAttr('rb-disabled', function(value) {
-        return $(this).prop('disabled', true);
-      });
       ltAttr('rb-show', function(value) {
         return $(this).show();
       });
-      return ltAttr('rb-hide', function(value) {
+      ltAttr('rb-hide', function(value) {
         return $(this).hide();
+      });
+      ltAttr('rb-enable', function(value) {
+        return $(this).prop('disabled', false);
+      });
+      return ltAttr('rb-disable', function(value) {
+        return $(this).prop('disabled', true);
       });
     });
   };
