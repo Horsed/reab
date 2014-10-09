@@ -6,7 +6,7 @@
   "authors": [
     "Martin.Knopf <legendaryhorsed@gmail.com>"
   ],
-  "description": "Declarative two-way data binding using RxJS",
+  "description": "Declarative two-way data binding between DOM and RxJS observable sequences",
   "moduleType": [
     "globals"
   ],

@@ -1,7 +1,7 @@
 {
   "name": "reab",
   "version": "0.0.0",
-  "description": "Declarative two-way data binding using RxJS",
+  "description": "Declarative two-way data binding between DOM and RxJS observable sequences",
   "main": "reab.js",
   "scripts": {
     "test": "grunt test"

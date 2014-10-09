@@ -46,9 +46,11 @@ As you can see, there is an observable sequence of click events which produces i
 
 ## Installation
 
-Using NPM:
+NOT YET RELEASED!!
+
+Using bower:
 ```shell
-$ npm install reab
+$ bower install reab
 ```
 
 Or download this repository [as a zip](https://github.com/Horsed/reab/archive/master.zip)
