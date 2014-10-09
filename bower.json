@@ -1,0 +1,26 @@
+{
+  "name": "reab",
+  "main": "reab.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Horsed/reab",
+  "authors": [
+    "Martin.Knopf <legendaryhorsed@gmail.com>"
+  ],
+  "description": "Declarative two-way data binding using RxJS",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "reactive",
+    "two-way-data-binding",
+    "rxjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

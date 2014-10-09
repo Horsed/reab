@@ -1,0 +1,31 @@
+{
+  "name": "reab",
+  "version": "0.0.0",
+  "description": "Declarative two-way data binding using RxJS",
+  "main": "reab.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Horsed/reab.git"
+  },
+  "keywords": [
+    "reactive",
+    "two-way-data-binding",
+    "rxjs"
+  ],
+  "author": "Martin Knopf <legendaryhorsed@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Horsed/reab/issues"
+  },
+  "homepage": "https://github.com/Horsed/reab",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-qunit": "^0.5.2",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
